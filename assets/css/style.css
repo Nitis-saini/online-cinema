@@ -92,6 +92,7 @@ button {
   border: none;
   font: inherit;
   color: inherit;
+
 }
 
 input {
@@ -105,7 +106,7 @@ button {
 
 html {
   font-family: var(--ff-dm-sans);
-  font-size: 10px;
+  font-size: 11px;
   scroll-behavior: smooth;
 }
 
@@ -174,6 +175,7 @@ body {
   0% {
     transform: rotate(0);
   }
+
   100% {
     transform: rotate(1turn);
   }
@@ -698,11 +700,9 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(
-    0deg,
-    hsla(250, 13%, 11%, 1),
-    hsla(250, 13%, 11%, 0.9)
-  );
+  background-image: linear-gradient(0deg,
+      hsla(250, 13%, 11%, 1),
+      hsla(250, 13%, 11%, 0.9));
 }
 
 .movie-detail .movie-poster {
@@ -790,6 +790,7 @@ body {
 
 /* screen larger than 575px */
 @media (min-width: 575px) {
+
   /* HOME PAGE */
   .banner-content {
     right: auto;
@@ -808,6 +809,7 @@ body {
 
 /* screen larger than 768px */
 @media (min-width: 768px) {
+
   /* CUSTOM PROPERTY */
   :root {
     /* gradient color */
@@ -816,6 +818,7 @@ body {
     /* font size */
     --fs-heading: 5.4rem;
   }
+
   /* HOME PAGE */
   .container {
     padding-inline: 24px;
@@ -874,6 +877,7 @@ body {
 
 /* screen larger than 1200px */
 @media (min-width: 1200px) {
+
   /* HOME PAGE */
   .header {
     padding: 28px 56px;
